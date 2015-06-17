@@ -1,7 +1,6 @@
 # Socrata Twitter Update Application
-####Python + flask application that tweets daily updates of new/modified SOCRATA datasets
-
-Initial version created at the Health 2.0 National Day of Civic Hacking, made available for public use.
+###Python + flask application that tweets daily updates of new/modified SOCRATA datasets
+####Initial version created at the Health 2.0 National Day of Civic Hacking, made available for public use.
 
 This python application checks the metadata of a specified Socrata Open Data Portal and identifies datasets that have are new or have been modified in the last day.  It creates a stack of tweets containing the title and a link to the dataset, then tweets it to Twitter via API.  
 
