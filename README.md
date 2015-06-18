@@ -8,3 +8,7 @@ We are working to develop a lightweight container for it via Flask and will be p
 
 ####Known bugs:
 * Does not yet check str len to ensure it is under 140 chars, we are writing code to check and truncate long titles
+
+####Future features:
+* Tweet newly created data sets, even if they have not been recently modified
+* Tweet data sets with low view counts over time to build a user base
